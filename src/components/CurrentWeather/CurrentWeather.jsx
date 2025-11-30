@@ -1,5 +1,7 @@
 import styles from "./CurrentWeather.module.css";
 
+import currentWeatherBackground from "../../assets/bg-today-large.svg";
+
 export default function CurrentWeather({
   city,
   country,
@@ -8,7 +10,10 @@ export default function CurrentWeather({
   date,
 }) {
   return (
-    <div className={styles.currentWeatherCard}>
+    <div
+      style={{ backgroundImage: `url(${currentWeatherBackground})` }}
+      className={styles.currentWeatherCard}
+    >
       <div className={styles.location}>
         <span>
           {city}, {country}

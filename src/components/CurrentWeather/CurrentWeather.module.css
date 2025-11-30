@@ -1,5 +1,4 @@
 .currentWeatherCard {
-  background-image: url("./bg-today-large.svg");
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 12px;
@@ -8,7 +7,6 @@
   align-items: center;
   justify-content: space-between;
   gap: 50px;
-  /* margin: 2rem; */
 }
 
 .location {
