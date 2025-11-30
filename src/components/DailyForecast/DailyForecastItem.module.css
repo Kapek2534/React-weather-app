@@ -1,0 +1,32 @@
+.dailyForecastItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: var(--neutral-800);
+  color: var(--neutral-200);
+  flex-grow: calc(100 / 7);
+}
+
+.dailyIcon {
+  width: 50px;
+  height: 50px;
+}
+
+.dailyIcon img {
+  width: 100%;
+  height: 100%;
+}
+
+.temperatures {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.9rem;
+  width: 100%;
+}
+
+.temperatures span:last-child {
+  color: var(--neutral-300);
+}

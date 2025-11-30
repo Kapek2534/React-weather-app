@@ -1,0 +1,35 @@
+.hourlyForecastItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 5px 10px;
+  border-radius: 8px;
+  background-color: var(--neutral-700);
+  font-size: 0.8rem;
+}
+
+.hourlyTimeAndIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.hourlyTimeAndIcon span {
+  white-space: nowrap;
+}
+
+.hourlyIconBox {
+  width: 30px;
+  height: 30px;
+}
+
+.hourlyIconBox img {
+  width: 100%;
+  height: 100%;
+}
+
+.hourlyTemperature {
+  color: var(--neutral-200);
+}

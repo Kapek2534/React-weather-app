@@ -1,0 +1,91 @@
+.content {
+  display: flex;
+  gap: 1rem;
+  align-items: stretch;
+}
+
+.mainColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  flex: 1 1 60%;
+}
+
+.sidebar {
+  flex: 1 1 35%;
+}
+
+.card {
+  background: var(--neutral-800);
+  border-radius: 12px;
+  padding: 1rem;
+  min-height: 80px;
+  box-shadow: none;
+}
+
+.row {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.block {
+  height: 140px;
+  border-radius: 8px;
+  background: linear-gradient(90deg, var(--neutral-700), var(--neutral-600));
+  animation: shimmer 1.2s infinite linear;
+}
+
+.smallBlocks {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.small {
+  flex: 1;
+  height: 48px;
+  border-radius: 8px;
+  background: linear-gradient(90deg, var(--neutral-700), var(--neutral-600));
+  animation: shimmer 1.2s infinite linear;
+}
+
+.titleLine {
+  height: 18px;
+  width: 50%;
+  border-radius: 8px;
+  background: linear-gradient(90deg, var(--neutral-700), var(--neutral-600));
+  margin-bottom: 12px;
+  animation: shimmer 1.2s infinite linear;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-height: 420px;
+  overflow: auto;
+}
+
+.listItem {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.circle {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: linear-gradient(90deg, var(--neutral-700), var(--neutral-600));
+  animation: shimmer 1.2s infinite linear;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200px 0;
+  }
+  100% {
+    background-position: 200px 0;
+  }
+}

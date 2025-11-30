@@ -1,0 +1,14 @@
+.customButton {
+  background-color: var(--blue-500);
+  padding: 0.7rem 1.2rem;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 1rem;
+  color: var(--neutral-0);
+}
+
+.customButton:hover {
+  background-color: var(--blue-700);
+}
